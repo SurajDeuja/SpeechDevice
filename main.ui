@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -35,7 +35,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/milk.jpg);</string>
+     <string notr="true">border-image: url(images/milk.jpg);</string>
     </property>
     <property name="text">
      <string>MILK</string>
@@ -56,12 +56,17 @@
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">
-background-image: url(:/images/toilet_signs.png);</string>
+border-image: url(images/toilet_signs.png);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Bathroom</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -79,11 +84,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/juice.jpg);</string>
+     <string notr="true">border-image: url(images/juice.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Juice</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -101,11 +111,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/blanket_small.jpg);</string>
+     <string notr="true">border-image: url(images/blanket_small.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Blanket</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
@@ -123,11 +138,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/Bed.jpg);</string>
+     <string notr="true">border-image: url(images/Bed.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Sleep</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
@@ -145,11 +165,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/tv.jpg);</string>
+     <string notr="true">border-image: url(images/tv.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Watch TV</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
@@ -167,11 +192,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/fruit_snack.jpg);</string>
+     <string notr="true">border-image: url(images/fruit_snack.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Snacks</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_8">
@@ -189,11 +219,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/mom.jpg);</string>
+     <string notr="true">border-image: url(images/mom.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Mom</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
@@ -211,11 +246,16 @@ background-image: url(:/images/toilet_signs.png);</string>
       <verstretch>0</verstretch>
      </sizepolicy>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/images/carrot.jpg);</string>
+     <string notr="true">border-image: url(images/carrot.jpg);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Hungry</string>
     </property>
    </widget>
   </widget>
