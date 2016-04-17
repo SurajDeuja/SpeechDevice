@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>605</width>
-    <height>506</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
+      <y>10</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -45,9 +45,9 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>0</y>
+      <y>10</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -68,40 +68,40 @@
      <string/>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>200</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <widget class="QPushButton" name="btn5">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>150</y>
-      <width>200</width>
-      <height>150</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="btn4">
-    <property name="geometry">
-     <rect>
       <x>0</x>
       <y>150</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -122,13 +122,13 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn8">
+   <widget class="QPushButton" name="btn10">
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>300</y>
+      <y>290</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -149,13 +149,13 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn7">
+   <widget class="QPushButton" name="btn9">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>300</y>
+      <y>290</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -179,13 +179,13 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn9">
+   <widget class="QPushButton" name="btn11">
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>300</y>
+      <y>290</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -209,13 +209,13 @@
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn6">
+   <widget class="QPushButton" name="btn7">
     <property name="geometry">
      <rect>
       <x>400</x>
       <y>150</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -240,9 +240,90 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>0</y>
+      <y>10</y>
       <width>200</width>
-      <height>150</height>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>10</y>
+      <width>200</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn8">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>150</y>
+      <width>200</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn12">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>290</y>
+      <width>200</width>
+      <height>140</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -269,7 +350,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>605</width>
+     <width>800</width>
      <height>22</height>
     </rect>
    </property>

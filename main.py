@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     db = LogData()
     # instantiate the application window
-    main_window = MainWindow.Main(db_logger=db)
+    main_window = MainWindow.Main()
     main_window.show()
 
     try:

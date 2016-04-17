@@ -20,12 +20,14 @@ class RpcServer(object):
 
             self.views = {'get_rpc': self.get_rpc,
                           'images': self.get_file,
-                          'save_file': self.save_file}
+                          'save_file': self.save_file,
+                          'get_log' : self.get_log}
 
             self.url_map = Map([Rule('/', endpoint='get_rpc'),
                                 Rule('/jsonrpc', endpoint='get_rpc'),
                                 Rule('/images', endpoint='images'),
-                                Rule('/upload', endpoint='save_file')])
+                                Rule('/upload', endpoint='save_file'),
+                                Rule('/log', endpoint='get_log')])
 
 
             # add the method names and the handlers to the dispatcher methods.
@@ -56,6 +58,10 @@ class RpcServer(object):
             except Exception:
                 return NotFound()
             return Response("Ok")
+
+        def get_log(self, environ, request):
+            response = dispatcher['get_log_data']()
+            return Response(response, mimetype="application/json")
 
         @responder
         def application(self, environ, start_response):

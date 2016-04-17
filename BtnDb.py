@@ -59,7 +59,10 @@ if __name__ == "__main__":
         logdata.add_data('6', 'toilet',    'images/toilet_signs.jpg')
         logdata.add_data('7', 'snack',     'images/fruit_snack.jpg')
         logdata.add_data('7', 'carrot',    'images/carrot.jpg')
-        logdata.add_data('8', 'bed',       'images/carrot.jpg')
+        logdata.add_data('8', 'dog',       'images/dog.jpg')
+        logdata.add_data('9', 'medicine',   'images/medicine.jpg')
+        logdata.add_data('10', 'bike',     'images/bike.jpg')
+        logdata.add_data('11', 'water',    'images/water.jpg')
 
     logdata.print_data()
     print(logdata.exists('0'))
