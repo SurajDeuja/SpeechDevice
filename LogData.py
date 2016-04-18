@@ -33,7 +33,7 @@ class LogData():
                  'time' : r[1]}
             l.append(d)
 
-        return json.dumps({"record": l})
+        return json.dumps(l)
 
     def get_json(self):
         pass
