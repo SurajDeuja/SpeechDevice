@@ -3,6 +3,7 @@ import logging
 from Button import *
 from BtnDb import BtnDb
 from LogData import LogData
+from Speech import Speech
 
 debug_logger = logging.getLogger(__name__)
 
@@ -13,7 +14,7 @@ class Main(QtWidgets.QMainWindow):
         self.ui = uic.loadUi('main.ui', self)
         self.ui.show()
         self.btn_array = ButtonArray()
-
+        self.speech = Speech()
         # Add button to the btn array
         for btn in self.create_buttons():
             self.btn_array.add_btn(btn)
@@ -25,7 +26,7 @@ class Main(QtWidgets.QMainWindow):
         """
         db_logger = LogData()
         db_logger.add_data(text)
-
+        self.speech.speak(text)
         print (text)
 
     ### All methods RPC methods ###
