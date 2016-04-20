@@ -6,8 +6,11 @@ class Speech:
         pass
 
     def speak(self, text):
-        proc = subprocess.Popen(["espeak", text])
-        proc.communicate()
+        try:
+            proc = subprocess.Popen(["espeak", text])
+            proc.communicate()
+        except Exception:
+            pass
 
 if __name__ == "__main__":
     speech = Speech()
