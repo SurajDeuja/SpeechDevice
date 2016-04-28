@@ -92,7 +92,11 @@ class ButtonArray:
         self.btn_list.append(btn)
 
     def get_btn(self, id):
-        return self.btn_list[id]
+        for btn in self.btn_list:
+            if id == btn.id:
+                return btn
+
+        return self.btn_list[0]
 
     def __iter__(self):
         return self
